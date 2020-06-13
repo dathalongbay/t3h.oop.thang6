@@ -1,7 +1,33 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: admin
- * Date: 6/13/2020
- * Time: 5:42 PM
- */
+
+//
+// <img src="" alt="" width="" height="" id="" class="" />
+
+class Hinhanh {
+
+    // tạo ra các thuộc tính class Hinhanh
+    // thuộc tính chỉ đặc điểm tích chất class trong php
+    // từ khóa public trước tên thuộc tính để khai báo giới hạn truy cập
+    // cho tên thuộc tính
+    public $src;
+
+    public $alt;
+
+    public $width;
+
+    public $height;
+
+    public $id;
+
+    public $class;
+
+
+    // tạo ra phương thức trong class
+    // phương thức gần giống hàm function trong php
+    // sử dụng từ khóa public khai báo giới hạn truy cập trước tên của phương thức
+    public function html() {
+        
+    }
+
+
+} // kết thúc của class Hinhanh
