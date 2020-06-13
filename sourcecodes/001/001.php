@@ -22,6 +22,22 @@ class Hinhanh {
     public $class;
 
 
+    // phương thức khởi tạo class
+    // chú ý __ là 2 shift _ liên tiêp
+    // phương thức khởi tạo class được tự động gọi
+    // khi chúng ta khởi tạo đối tượng từ class bằng từ khóa new
+    public function __construct($src_param, $alt_param, $width_param, $height_param,$id_param,$class_param)
+    {
+        // bên trong hàm khởi tạo
+        // truyền các giá trị của tham số cho các thuộc tính class
+        $this->src = $src_param;
+        $this->alt = $alt_param;
+        $this->width = $width_param;
+        $this->height = $height_param;
+        $this->id = $id_param;
+        $this->class = $class_param;
+    }
+
     // tạo ra phương thức trong class
     // phương thức gần giống hàm function trong php
     // sử dụng từ khóa public khai báo giới hạn truy cập trước tên của phương thức
