@@ -25,8 +25,11 @@ class Hinhanh {
     // tạo ra phương thức trong class
     // phương thức gần giống hàm function trong php
     // sử dụng từ khóa public khai báo giới hạn truy cập trước tên của phương thức
+    // phương thức trong class thường dùng để tạo 1 hành động cho đối tượng
     public function html() {
-        
+        $html = "<img src='' alt='' width='' height='' id='' class='' />";
+
+        return $html;
     }
 
 
