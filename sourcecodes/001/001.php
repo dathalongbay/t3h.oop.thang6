@@ -68,3 +68,6 @@ echo $img1->html();
 echo '<pre>';
 print_r($img1);
 echo '</pre>';
+
+$img2 = new Hinhanh('https://salt.tikicdn.com/cache/w412/ts/banner/91/f3/4e/b38a65bbf37f393d82af0fbb14828a4f.jpg', 'demo hình ảnh', 200, 300, 'img1', 'image');
+echo $img2->html();
