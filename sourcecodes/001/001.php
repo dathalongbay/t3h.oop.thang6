@@ -60,3 +60,6 @@ class Hinhanh {
 
 // tạo ra đối tượng object từ class Hinhanh
 $img1 = new Hinhanh('https://salt.tikicdn.com/cache/w584/ts/banner/11/5a/b7/7e23d5a94110b992f9e12a2f6643f7d3.jpg', 'demo hình ảnh', 200, 300, 'img1', 'image');
+
+// gọi đến phương thức trong class từ object đối tượng cụ thể
+echo $img1->html();
