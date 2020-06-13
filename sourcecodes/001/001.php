@@ -63,3 +63,8 @@ $img1 = new Hinhanh('https://salt.tikicdn.com/cache/w584/ts/banner/11/5a/b7/7e23
 
 // gọi đến phương thức trong class từ object đối tượng cụ thể
 echo $img1->html();
+
+// in ra cấu trúc của 1 class
+echo '<pre>';
+print_r($img1);
+echo '</pre>';
