@@ -21,6 +21,10 @@ class Traicay {
 
 }
 
+// khi sử dụng từ khóa extends thì chỉ có thể kế thừa được từ 1 class duy nhất
+// classA extends classB
+// nếu muốn sử dụng đa kế thừa trong php
+// 1 class con kế thừa từ nhiều class cha
 class Dautay extends Traicay {
 
 
